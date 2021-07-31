@@ -19,6 +19,9 @@ COMMON_PATH := device/motorola/exynos9610-common
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/exynos9610-common/exynos9610-common-vendor.mk)
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
