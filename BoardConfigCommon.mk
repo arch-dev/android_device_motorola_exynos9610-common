@@ -158,4 +158,7 @@ WIFI_HIDL_FEATURE_AWARE          := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
+## Allow ELF files in PRODUCT_COPY_FILES
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 PRODUCT_CFI_INCLUDE_PATHS += hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
