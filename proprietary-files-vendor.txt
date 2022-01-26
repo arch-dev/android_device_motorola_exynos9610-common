@@ -43,8 +43,8 @@ vendor/bin/charge_only_mode
 vendor/lib/liboemcrypto.so
 
 ## DRM - Widevine
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/lib/libwvhidl.so
 
 ## Fingerprint
@@ -313,8 +313,8 @@ vendor/lib64/vendor.samsung_slsi.telephony.hardware.radio@1.1.so
 vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so
 
 ## Secure Element
-vendor/bin/hw/android.hardware.secure_element@1.1-service-uicc
-vendor/etc/init/android.hardware.secure_element@1.1-service-uicc.rc
+vendor/bin/hw/android.hardware.secure_element@1.2-uicc-service
+vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc
 
 ## Sensors
 vendor/lib/libhubconnection.so
